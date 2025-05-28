@@ -16,7 +16,7 @@ Este repositório contém testes automatizados para validar o **fluxo completo d
 
 ## 📂 **Estrutura do Projeto**
 
-
+````
 ├── 📂 cypress/
 │   ├── 📂 e2e/                              # Testes End-to-End
 │   │   ├── 📝 login.cy.js                   # Teste de login automatizado
@@ -32,7 +32,7 @@ Este repositório contém testes automatizados para validar o **fluxo completo d
 ├── 📄 cypress.config.js                     # Configuração do Cypress
 ├── 📄 package.json                          # Dependências do projeto
 ├── 📄 README.md                             # Documentação do projeto
-
+````
 
 
 ## 🎥 **Captura de Evidências**
