@@ -16,18 +16,23 @@ Este repositório contém testes automatizados para validar o **fluxo completo d
 
 ## 📂 **Estrutura do Projeto**
 
-── 📁 cypress/
-    ── 📁 e2e/ │ 
-        ├── 📝 login.cy.js # Teste automatizado em Cypress │ 
-        ├── 📁 bdd
-         ├── 📝 fluxo_swag.feature 
-    ├── 📁 screenshots/ 
-    ├── 📁 videos/ 
-    ├── 📁 fixtures/ 
-    ├── 📁 support/ 
-📄 cypress.config.js 
-📄 package.json
-📄 README.md 
+
+├── 📂 cypress/
+│   ├── 📂 e2e/                              # Testes End-to-End
+│   │   ├── 📝 login.cy.js                   # Teste de login automatizado
+│   │   ├── 📂 bdd/                          # Testes baseados em BDD (Gherkin)
+│   │   │   ├── 📝 fluxo_swag.feature        # Cenário de teste BDD
+│   ├── 📂 screenshots/                      # Capturas de tela das execuções
+│   ├── 📂 videos/                           # Gravação dos testes
+│   ├── 📂 fixtures/                         # Arquivos JSON para massa de dados
+│   ├── 📂 support/                          # Suporte para funções auxiliares
+│   │   ├── 📝 commands.js                   # Customização de comandos do Cypress
+│   │   ├── 📝 e2e.js                        # Configurações globais do Cypress
+│
+├── 📄 cypress.config.js                     # Configuração do Cypress
+├── 📄 package.json                          # Dependências do projeto
+├── 📄 README.md                             # Documentação do projeto
+
 
 
 ## 🎥 **Captura de Evidências**
