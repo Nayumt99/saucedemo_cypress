@@ -36,7 +36,10 @@ Este repositório contém testes automatizados para validar o **fluxo completo d
 
 
 ## 🎥 **Captura de Evidências**
-Os testes geram automaticamente: 📸 Screenshots em caso de falha (cypress/screenshots/) 🎥 Vídeos das execuções (cypress/videos/)
+Os testes geram automaticamente: 
+
+📸 Screenshots em caso de falha (cypress/screenshots/) 
+🎥 Vídeos das execuções (cypress/videos/)
 
 ## 👥 **Contribuição**
 Caso queira melhorar os testes, fique à vontade para fazer um Pull Request ou abrir uma Issue!
